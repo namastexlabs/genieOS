@@ -1,0 +1,22 @@
+📦 Extracting automagik-forge...
+🔌 Using port: 8887
+🚀 Launching automagik-forge...
+
+http://0.0.0.0:8887/
+
+[2m2025-11-29T22:00:43.153070Z[0m [32m INFO[0m [2mforge_app[0m[2m:[0m Asset directory: "/home/namastex/.local/share/automagik-forge"
+[2m2025-11-29T22:00:43.153104Z[0m [32m INFO[0m [2mforge_app[0m[2m:[0m Database will be created at: "/home/namastex/.local/share/automagik-forge/db.sqlite"
+[2m2025-11-29T22:00:43.153111Z[0m [32m INFO[0m [2mforge_app[0m[2m:[0m Initializing forge services using upstream deployment
+[2m2025-11-29T22:00:43.153162Z[0m [32m INFO[0m [2mservices::services::config[0m[2m:[0m No config file found, creating one
+[2m2025-11-29T22:00:43.153537Z[0m [32m INFO[0m [2mexecutors::profile[0m[2m:[0m Detected available executor: CLAUDE_CODE
+[2m2025-11-29T22:00:44.304546Z[0m [32m INFO[0m [2mlocal_deployment[0m[2m:[0m Starting orphaned image cleanup...
+[2m2025-11-29T22:00:44.305598Z[0m [32m INFO[0m [2mlocal_deployment::container[0m[2m:[0m Starting periodic worktree cleanup...
+[2m2025-11-29T22:00:44.320594Z[0m [32m INFO[0m [2mforge_app::services[0m[2m:[0m Backfilled task_attempts.base_branch for legacy Vibe Kanban databases so orphan cleanup can run
+[2m2025-11-29T22:00:44.321441Z[0m [32m INFO[0m [2mservices::services::file_search_cache[0m[2m:[0m Starting file search cache warming...
+[2m2025-11-29T22:00:44.321463Z[0m [32m INFO[0m [2mservices::services::pr_monitor[0m[2m:[0m Starting PR monitoring service with interval 60s
+[2m2025-11-29T22:00:44.321808Z[0m [32m INFO[0m [2mservices::services::file_search_cache[0m[2m:[0m No active projects found, skipping cache warming
+[2m2025-11-29T22:00:44.359188Z[0m [32m INFO[0m [2mforge_app::services[0m[2m:[0m Loaded forge extension settings from auxiliary schema [3mforge_omni_enabled[0m[2m=[0mfalse
+[2m2025-11-29T22:00:44.369857Z[0m [32m INFO[0m [2mforge_app::services::notification_hook[0m[2m:[0m Installed Omni notification trigger
+[2m2025-11-29T22:00:44.369947Z[0m [32m INFO[0m [2mforge_app::services[0m[2m:[0m Starting to load .genie profiles for all projects...
+[2m2025-11-29T22:00:44.371219Z[0m [32m INFO[0m [2mforge_app::services[0m[2m:[0m No existing projects found to load .genie profiles from
+[2m2025-11-29T22:00:44.372433Z[0m [32m INFO[0m [2mforge_app[0m[2m:[0m Forge app listening on 0.0.0.0:8887
