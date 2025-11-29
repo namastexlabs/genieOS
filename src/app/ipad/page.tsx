@@ -85,7 +85,7 @@ export default function Home() {
         <div className="h-full w-full flex items-center justify-between px-6 text-white text-sm font-medium">
           <div className="flex items-center gap-4">
             <Apple className="w-5 h-5" />
-            <span className="font-bold text-lg">Vibe OS</span>
+            <span className="font-bold text-lg">GenieOS</span>
           </div>
           <div className="flex items-center gap-4">
             <Search className="w-4 h-4" />

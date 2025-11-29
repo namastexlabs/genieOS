@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vibe OS",
+  title: "GenieOS",
   description: "Next.js app with Claude Code integration",
 };
 

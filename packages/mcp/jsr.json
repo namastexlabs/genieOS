@@ -1,0 +1,56 @@
+{
+  "name": "@makosst/mcpcli",
+  "version": "0.0.0",
+  "description": "CLI for any MCP server",
+  "exports": {
+    ".": "./dist/index.js",
+    "./client": "./dist/client.js",
+    "./daemon": "./dist/daemon.js"
+  },
+  "bin": {
+    "mcp": "./bin/run.js"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publish": {
+    "include": [
+      "bin/**/*",
+      "dist/**/*",
+      "README.md",
+      "LICENSE"
+    ],
+    "exclude": [
+      "src/**/*",
+      "test/**/*",
+      "node_modules/**/*",
+      "src/**/*.ts",
+      "*.tsbuildinfo",
+      "tsconfig.json",
+      "eslint.config.mjs",
+      ".prettierrc.json",
+      ".mocharc.json",
+      "package.json",
+      "package-lock.json",
+      "!dist"
+    ]
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cli",
+    "server",
+    "tools"
+  ],
+  "author": "makosst",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makosst/mcpcli"
+  },
+  "bugs": "https://github.com/makosst/mcpcli/issues",
+  "homepage": "https://github.com/makosst/mcpcli"
+}

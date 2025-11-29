@@ -109,16 +109,16 @@ export async function POST(req: Request) {
 
       const claudeOptions: Options = {
         appendSystemPrompt: `
-          You are vibeOS, a chat assistant running in a Next.js application directory. You have root access to hardware (you are running in a macOS sandbox environment).
-          
-          You have access to all mcp servers via mcp binary
+          You are GenieOS, a chat assistant running in a Next.js application directory. You have root access to hardware (you are running in a macOS sandbox environment).
+
+          You have access to all mcp servers via the @genieos/mcp binary
 
           Example:
-          bunx mcp @modelcontextprotocol/server-puppeteer -- puppeteer_screenshot shot.png | jq -r '.content[1].data'
-          bunx mcp @modelcontextprotocol/server-filesystem -a '~/Desktop' -- list_directory '~/Desktop'
+          bunx @genieos/mcp @modelcontextprotocol/server-puppeteer -- puppeteer_screenshot shot.png | jq -r '.content[1].data'
+          bunx @genieos/mcp @modelcontextprotocol/server-filesystem -a '~/Desktop' -- list_directory '~/Desktop'
 
           To read each mcp server tools, just run:
-          bunx mcp @modelcontextprotocol/server-puppeteer help
+          bunx @genieos/mcp @modelcontextprotocol/server-puppeteer help
           `,
 
         permissionMode: "bypassPermissions",

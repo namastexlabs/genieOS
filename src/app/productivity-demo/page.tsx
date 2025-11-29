@@ -362,8 +362,8 @@ export default function ProductivityDemo() {
               className="mb-8 relative w-24 h-24 mx-auto"
             >
               <Image 
-                src="/assets/vibe-logo.png" 
-                alt="vibe os logo" 
+                src="/assets/genieos-white.png"
+                alt="GenieOS logo" 
                 fill
                 className="object-contain"
               />
@@ -376,7 +376,7 @@ export default function ProductivityDemo() {
               transition={{ delay: 0.4, duration: 0.5 }}
             >
               <h1 className="text-5xl font-light text-gray-800 mb-3">
-                welcome to <span className="font-semibold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">vibeOS</span>
+                welcome to <span className="font-semibold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">GenieOS</span>
               </h1>
               <p className="text-xl text-gray-500">
                 you&apos;re in control
@@ -426,7 +426,7 @@ export default function ProductivityDemo() {
         <div className="h-full w-full flex items-center justify-between px-6">
           <div className="flex items-center gap-4">
             <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              vibe os
+              GenieOS
             </h1>
             <span className="text-sm text-gray-500">productivity demo</span>
           </div>
@@ -451,7 +451,7 @@ export default function ProductivityDemo() {
                   : "text-gray-500 hover:text-gray-700"
               }`}
             >
-              after: vibe os
+              after: GenieOS
             </button>
           </div>
         </div>

@@ -151,7 +151,7 @@ export default function Home() {
         <div className="h-full w-full flex items-center justify-between px-4 text-white text-xs font-medium overflow-visible">
           <div className="flex items-center gap-4">
             <Apple className="w-4 h-4" />
-            <span className="font-semibold">Vibe OS</span>
+            <span className="font-semibold">GenieOS</span>
             <span className="text-white/70">File</span>
             <span className="text-white/70">Edit</span>
             <span className="text-white/70">View</span>
@@ -457,7 +457,7 @@ export default function Home() {
         >
           <div className="pointer-events-auto">
             <GlassWindow 
-              title="Welcome to Vibe OS" 
+              title="Welcome to GenieOS" 
               onClose={() => {
                 setShowWelcome(false);
                 setDesktopMode("default");
@@ -467,8 +467,8 @@ export default function Home() {
               <div className="h-[400px] p-12 flex flex-col items-center justify-center bg-gradient-to-br from-white via-purple-50/30 to-indigo-50/30">
                 <div className="relative w-48 h-48 mb-8">
                   <Image 
-                    src="/assets/vibe-logo.png" 
-                    alt="vibe os logo" 
+                    src="/assets/genieos-white.png"
+                    alt="GenieOS logo" 
                     fill
                     className="object-contain"
                   />
@@ -481,7 +481,7 @@ export default function Home() {
                   WebkitTextFillColor: 'transparent',
                   backgroundClip: 'text'
                 }}>
-                  Welcome to vibeOS
+                  Welcome to GenieOS
                 </h1>
                 
                 <p className="text-xl text-gray-600" style={{ 
